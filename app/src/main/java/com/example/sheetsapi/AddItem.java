@@ -44,7 +44,7 @@ public class AddItem extends AppCompatActivity {
         final ProgressDialog loading = ProgressDialog.show(this,"Adding Item","Please wait");
         final String name = Objects.requireNonNull(et_Name.getText()).toString().trim();
         final String hobby = Objects.requireNonNull(et_Hobby.getText()).toString().trim();
-        final String url = "https://script.google.com/macros/s/AKfycbxGiSQRV7WnJrYnIAP09uEI_WGqa2S3DCj4bg0iYJ-dcYIhiwl59iR45qNX5Ks9KsOILQ/exec?";
+        final String url = BuildConfig.Apps_ScriptKey; // Paste your Apps Script URL here
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
