@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/SheetsAPI/app/src/main/res/layout/activity_additem.xml" value="0.23645833333333333" />
-        <entry key="..\:/SheetsAPI/app/src/main/res/layout/activity_listitem.xml" value="0.23645833333333333" />
+        <entry key="..\:/SheetsAPI/app/src/main/res/layout/activity_listitem.xml" value="0.1" />
         <entry key="..\:/SheetsAPI/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/SheetsAPI/app/src/main/res/layout/listitem_row.xml" value="0.4" />
       </map>
     </option>
   </component>
